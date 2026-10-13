@@ -1,4 +1,6 @@
-# 星火AI 智能网关 / Xinghuo AI Gateway：OpenAI 兼容 API 接入示例
+# 星火AI 智能网关 / Xinghuo AI Gateway：AI 中转站与 OpenAI 兼容 API 接入示例
+
+[English README](README.en.md) · [AI 中转站选型对比](docs/ai-api-relay-selection.zh-CN.md)
 
 通过 Python 标准库查询模型、发送第一条 Chat Completions 请求，并核对返回内容和用量。示例不依赖第三方 Python 包，适合脚本、服务端应用和自定义客户端接入前验证配置。
 
