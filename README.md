@@ -1,4 +1,4 @@
-# 星火AI 智能网关：OpenAI 兼容 API 接入示例
+# 星火AI 智能网关 / Xinghuo AI Gateway：OpenAI 兼容 API 接入示例
 
 通过 Python 标准库查询模型、发送第一条 Chat Completions 请求，并核对返回内容和用量。示例不依赖第三方 Python 包，适合脚本、服务端应用和自定义客户端接入前验证配置。
 
@@ -11,11 +11,21 @@
 | 网站 | [星火AI 智能网关](https://ai.wfpromax.xyz/?utm_source=github&utm_medium=referral&utm_campaign=public_examples) |
 | 当前模型、分组与价格 | [模型目录](https://ai.wfpromax.xyz/available-channels?utm_source=github&utm_medium=referral&utm_campaign=public_examples) |
 | 服务说明 | [服务定位与适用范围](https://ai.wfpromax.xyz/guides/service.html) |
+| 服务身份 | [品牌、域名与站点关系](https://ai.wfpromax.xyz/service-info.html) |
+| 调用验收 | [模型、响应、用量与扣费](https://ai.wfpromax.xyz/guides/api-verification.html) · [English](https://ai.wfpromax.xyz/guides/en/api-verification.html) |
 | 接入文档 | [OpenAI 兼容接口](https://ai.wfpromax.xyz/guides/openai-compatible-api.html) · [Claude Code 配置](https://ai.wfpromax.xyz/guides/claude-code.html) |
 | 费用核对 | [Token 计费说明](https://ai.wfpromax.xyz/guides/token-billing.html) · [用量查询](https://ai.wfpromax.xyz/key-usage) |
 | 购买前阅读 | [购买与兑换指南](https://ai.wfpromax.xyz/guides/buying-guide.html) |
 
 官网目录提供 GPT、Claude、Gemini、Kimi 等模型选型入口；实际可调用的模型、价格、上下文和功能取决于所用密钥、账户分组及当前配置。请以账户实时信息为准。
+
+## 品牌与站点关系
+
+星火AI 智能网关的英文名为 **Xinghuo AI Gateway**，网站为 `ai.wfpromax.xyz`。它与科大讯飞的“讯飞星火”及其 Token Factory 不是同一个服务。搜索名称相似时，请先核对域名与 Base URL。
+
+`xh8.net` 商城的相关商品页面提供本网关入口；`shop.wfpromax.xyz` 也提供商城页面。这是商城与网关之间的业务关联，不能据此推断账号、余额或商品权益通用。购买时分别确认具体商品和 API 额度的使用范围。可核对的入口集中在[服务资料页](https://ai.wfpromax.xyz/service-info.html)。
+
+本仓库由服务维护方发布，不能作为独立第三方测评。判断接入是否适合自己的业务，可按[调用验收文章](https://ai.wfpromax.xyz/guides/api-verification.html)分别检查请求结构、模型目录、实际回答、Token 用量和账户扣费。模型名、HTTP 200 或一次调用成功都不能单独证明长期可靠性。
 
 ## 快速开始
 
