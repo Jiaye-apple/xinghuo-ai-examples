@@ -1,0 +1,18 @@
+const assert = require('node:assert/strict');
+const { estimate, decimal, count, formatRatio } = require('../docs/assets/calculator.js');
+const sample = { input:'1000',cache:'200',output:'100',inputRate:'2',cacheRate:'0.20',outputRate:'8',multiplier:'1.5',unit:'1000000',disjoint:true };
+assert.deepEqual(estimate(sample), {input:'0.002',cache:'0.00004',output:'0.0008',base:'0.00284',total:'0.00426'});
+assert.equal(estimate({...sample,unit:'1000'}).total,'4.26');
+assert.equal(estimate({...sample,multiplier:'0'}).total,'0');
+assert.equal(estimate({...sample,input:'0',cache:'0',output:'0'}).total,'0');
+assert.equal(decimal('.2'),200000000n);
+assert.equal(formatRatio(1n,3n),'0.333333333333');
+assert.equal(formatRatio(1n,10000000000000n),'<0.000000000001');
+assert.equal(count('1000000000000'),1000000000000n);
+for (const invalid of ['', '-1', 'NaN', 'Infinity', '1e3', '1.1234567890']) assert.throws(()=>decimal(invalid));
+for (const invalid of ['', '1.2','-1','1000000000001']) assert.throws(()=>count(invalid));
+assert.throws(()=>estimate({...sample,disjoint:false}),/overlap/);
+assert.throws(()=>estimate({...sample,disjoint:'false'}),/overlap/);
+assert.throws(()=>estimate({...sample,unit:'0'}),/unit/);
+assert.throws(()=>estimate({...sample,inputRate:''}),/decimal/);
+console.log('费用分类、单位转换、精度、零值及错误输入测试通过');

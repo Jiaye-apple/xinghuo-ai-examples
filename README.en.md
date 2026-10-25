@@ -21,6 +21,12 @@ It is distinct from iFlytek Spark and is not the official service of OpenAI, Ant
 | Billing and troubleshooting | [Token costs](https://ai.wfpromax.xyz/guides/en/token-billing.html) · [API errors](https://ai.wfpromax.xyz/guides/en/api-errors.html) |
 | Purchasing | [Credits and redemption guide](https://ai.wfpromax.xyz/guides/en/buying-guide.html) |
 
+## Free token cost worksheet
+
+[English calculator](https://jiaye-apple.github.io/xinghuo-ai-examples/en/) · [中文工具](https://jiaye-apple.github.io/xinghuo-ai-examples/)
+
+Recalculate disjoint uncached input, cached input and output tokens using your own current rates and account multiplier. Calculation stays in the browser; no API key or model request is needed. The teaching example is not a current price quote. Download a JSON worksheet for your private records. Integer decimal arithmetic checks can be run with `node tests/calculator.test.cjs`.
+
 ## Run the example
 
 Requires Python 3.9 or newer. The example uses only the Python standard library. Download and inspect `example.py` from this repository before running it.

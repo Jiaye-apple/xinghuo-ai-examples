@@ -30,6 +30,12 @@
 
 本仓库由服务维护方发布，不能作为独立第三方测评。判断接入是否适合自己的业务，可按[调用验收文章](https://ai.wfpromax.xyz/guides/api-verification.html)分别检查请求结构、模型目录、实际回答、Token 用量和账户扣费。模型名、HTTP 200 或一次调用成功都不能单独证明长期可靠性。
 
+## 免费费用复算工具
+
+[中文工具](https://jiaye-apple.github.io/xinghuo-ai-examples/) · [English calculator](https://jiaye-apple.github.io/xinghuo-ai-examples/en/)
+
+输入互不重叠的非缓存输入、缓存输入与输出 Token，以及自己的当前单价和账户倍率，复算费用并下载核对记录。计算在浏览器本地完成，不需要 API Key，不调用模型；教学样例不是当前报价。公开工具使用整数小数计算，单元测试可运行 `node tests/calculator.test.cjs`。
+
 ## 快速开始
 
 需要 Python 3.9 或更新版本，以及在本站创建的 API Key。密钥只放在本机或服务端环境变量中，不要写入前端页面、公开仓库、Issue 或截图。
