@@ -11,6 +11,7 @@
 | 内容 | 地址 |
 | --- | --- |
 | 网站 | [星火AI 智能网关](https://ai.wfpromax.xyz/?utm_source=github&utm_medium=referral&utm_campaign=public_examples) |
+| 下载与客户端配置 | [客户端、插件与接入入口](https://ai.wfpromax.xyz/downloads?utm_source=github&utm_medium=referral&utm_campaign=public_examples) |
 | 当前模型、分组与价格 | [模型目录](https://ai.wfpromax.xyz/available-channels?utm_source=github&utm_medium=referral&utm_campaign=public_examples) |
 | 服务说明 | [服务定位与适用范围](https://ai.wfpromax.xyz/guides/service.html) |
 | 服务身份 | [品牌、域名与站点关系](https://ai.wfpromax.xyz/service-info.html) |
