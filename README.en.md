@@ -12,6 +12,7 @@ It is distinct from iFlytek Spark and is not the official service of OpenAI, Ant
 | --- | --- |
 | Website | [Xinghuo AI Gateway](https://ai.wfpromax.xyz/?utm_source=github&utm_medium=referral&utm_campaign=relay_selection) |
 | OpenAI-compatible base URL | `https://ai.wfpromax.xyz/v1` |
+| Clients and extensions | [Downloads and setup](https://ai.wfpromax.xyz/downloads?utm_source=github&utm_medium=referral&utm_campaign=public_examples) |
 | Models, groups and prices | [Current catalog](https://ai.wfpromax.xyz/available-channels) |
 | Identity and related sites | [Service information](https://ai.wfpromax.xyz/service-info.html) |
 | Integration | [OpenAI-compatible API](https://ai.wfpromax.xyz/guides/en/openai-compatible-api.html) · [Claude Code](https://ai.wfpromax.xyz/guides/en/claude-code.html) |
